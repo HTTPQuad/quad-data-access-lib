@@ -1,0 +1,45 @@
+# Build artifacts
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider and VSCode
+.idea/
+.vscode/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+
+# Logs
+*.log
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Test coverage and reports
+TestResults/
+*.coverage
+*.coveragexml
+*.lcov
+
+# Secrets and config (if any)
+secrets.json
+.env
+*.pfx
+*.key
+*.cer
+
+# Docker (if applicable)
+docker-compose.override.yml
+.env.docker
