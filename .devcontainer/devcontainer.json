@@ -1,0 +1,14 @@
+{
+  "name": "quad-data-access-lib",
+  "image": "mcr.microsoft.com/dotnet/sdk:8.0",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-vscode.powershell",
+        "editorconfig.editorconfig"
+      ]
+    }
+  },
+  "postCreateCommand": "dotnet restore"
+}
